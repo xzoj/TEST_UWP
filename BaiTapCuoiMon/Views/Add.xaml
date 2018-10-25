@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="BaiTapCuoiMon.Views.Add"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BaiTapCuoiMon.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel HorizontalAlignment="Left">
+        <TextBox x:Name="File_name" Header="File name" Width="200" HorizontalAlignment="Left"  />
+        <TextBox x:Name="Content_text" Header="Content" Width="300" HorizontalAlignment="Left"/>
+        <Button Content="Save file" Click="Save_file"/>
+    </StackPanel>
+</Page>
